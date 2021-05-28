@@ -1,0 +1,76 @@
+h1 {
+    color: brown;
+    margin-left: 70px;
+}
+
+.header * {
+    border: solid;
+}
+
+
+.names  * { 
+margin-right: 30px;
+
+}
+
+.dylanenub{
+
+    
+background-color: chartreuse;
+display:flex;
+justify-content: space-between;
+}
+
+.grid{
+display:flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+}
+
+.socials{
+    display:flex;
+    justify-content: flex-end;
+}
+
+body{
+
+background-color: #ad70ad80
+
+}
+
+a:link{
+
+    color:white;
+}
+
+a:visited{
+    color:cyan;
+}
+
+.image1{
+    position:relative;
+
+}
+
+.image1 p{
+    position:absolute;
+    top: 40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+    
+
+}
+
+.image1:hover p {
+    opacity:1;
+
+
+    
+}
+
+
+.image1:hover img{
+    opacity:0.33;
+}
